@@ -1,15 +1,16 @@
 Package: piercecountyelections
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Pierce County Elections Data and Analysis
+Version: 0.0.1.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Joe",
+           family = "Izenman",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
+           email = "elections@bigdatalittledata.net")
+Description: A centralized source of data and functions for analysis of elections
+  in Pierce County, WA, USA.
 Imports:
   ggplot2
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1

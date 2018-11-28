@@ -16,7 +16,7 @@ turnout_chart <- function(year_type="all", measure="percent") {
                           "midterm" = "All federal midterm elections since 2011.",
                           "mayoral" = "All Tacoma mayoral elections since 2011.")
 
-  chart <- ggplot(turnout[turnout$year %in% years,])
+  chart <- ggplot(turnout_daily[turnout_daily$year %in% years,])
 
   if(measure == "percent") {
     chart <- chart + aes(x=day, y=percent, color=factor(year), alpha=(year == max(year)), size=(year == max(year)))
