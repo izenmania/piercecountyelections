@@ -15,3 +15,22 @@
 #' }
 #' @source \url{https://www.co.pierce.wa.us/328/Elections}
 "turnout_daily"
+
+#' The most recent Pierce County election precinct data and shapes (currently from 2018)
+#'
+#' Identifying information, political unit information (congressional, legislative, and county
+#' council districts) and polygon geometry for all election precincts in Pierce County.
+#'
+#' @format A data frame of class sf, with 530 features, 8 data attributes and one list of geometry
+#' \describe{
+#'   \item{object_id}{A unique identifier of the feature}
+#'   \item{precinct}{A five digit code identifiying the precinct}
+#'   \item{name}{The formal identifier of the precinct, separating the legislative code and the three-digit identifier}
+#'   \item{legislative}{The Washington legislative district of this precinct}
+#'   \item{congressional}{The US congressional district of this precinct}
+#'   \item{county_council}{The Pierce County council district of this precinct}
+#'   \item{area}{The geometry's area in projected units (feet)}
+#'   \item{geometry}{A list field of the precinct's projected geometry}
+#' }
+#' @source \url{http://gisdata-piercecowa.opendata.arcgis.com/datasets/election-precincts}
+"election_precincts"

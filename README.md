@@ -23,3 +23,9 @@ day, count, cumulative count, and turnout percentage. Historical returns only go
 2011, the year Pierce County switch to full mail-in voting.
 
 A raw CSV for non-R use can be found at data-raw/daily_turnout.csv.
+
+#### election_precincts
+
+An sf object data frome of all the census-defined election precincts in the county, including
+identifying information, political unit (congressional, legislative, county council) and projected
+geometry.
