@@ -34,3 +34,22 @@
 #' }
 #' @source \url{http://gisdata-piercecowa.opendata.arcgis.com/datasets/election-precincts}
 "election_precincts"
+
+#' asdf
+#'
+#' qwert
+#'
+#' @format A data table with 31 rows and 10 variables
+#' \describe{
+#'   \item{id}{A unique identifier of each election}
+#'   \item{name}{The full name of the election}
+#'   \item{date}{The official election date}
+#'   \item{year}{The year of the election}
+#'   \item{type}{The election type, from \code{c("General", "Primary", "Special")}}
+#'   \item{registered_voters}{Number of registered voters eligible to vote in this election (from daily turnout files)}
+#'   \item{total_turnout}{Number of ballots returned in this election (from daily turnout files)}
+#'   \item{auditor_url}{URL to the election webpage on the Pierce County Auditor site}
+#'   \item{results_url}{URL to the full election results, on the WA Secretary of State site}
+#'   \item{precinct_results_url}{URL to the full election results at the precinct level}
+#' }
+"elections"
